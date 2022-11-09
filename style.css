@@ -1,0 +1,268 @@
+* {
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  filter: brightness(80%);
+}
+
+a:hover {
+  color: white !important;
+  filter: brightness(100%);
+}
+
+.no-gutter > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* embed */
+
+.ytb-as:hover {
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  filter: brightness(100%);
+}
+
+.ytb-as {
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+/* embed */
+
+.sec1 {
+  background-image: linear-gradient(to right, #dce2ee, #8ea6ca);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 60px;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+link {
+  color: #148eff;
+}
+
+a:hover {
+  color: #f06414;
+}
+
+:root {
+  --black: hsl(0, 0%, 0%, 0.65);
+  --trans: hsl(0, 0%, 0%, 0);
+}
+
+.navcustom {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0) !important; /* Fallback color */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ) !important; /* Black w/opacity/see-through */
+  backdrop-filter: blur(8px) !important;
+}
+
+.dropdown-menu-dark {
+  border-radius: 15px;
+  margin-top: 30px !important;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ) !important; /* Black w/opacity/see-through */
+  backdrop-filter: blur(8px) !important;
+}
+
+.nav-link {
+  font-weight: 700 !important;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: rgb(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 8px;
+}
+
+.btn {
+  font-weight: 700;
+  background-color: #f06414;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color: #f3945a;
+}
+
+.btn-light {
+  background-color: rgb(238, 238, 238);
+}
+
+.btn-light:hover {
+  background-color: white;
+}
+
+.active {
+  color: #f06414 !important;
+}
+
+.thick {
+  font-weight: 700;
+}
+
+.no-radius {
+  border-radius: 0 !important;
+}
+
+.img-btn {
+  opacity: 0.6;
+}
+
+.img-btn:hover {
+  opacity: 1.6;
+}
+
+.impact {
+  font-family: "Oswald", sans-serif;
+  line-height: 70px !important  ;
+  font-weight: 500 !important;
+  font-style: italic;
+  font-variant: normal;
+  letter-spacing: 1px;
+  text-indent: 0px;
+  text-decoration: none solid !important;
+}
+
+.jumbo-bg {
+  /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
+  background: linear-gradient(var(--trans), var(--black)),
+    url(assets/img/overwatchgif.gif) no-repeat center center / cover !important;
+  background-size: cover;
+}
+
+.sec2-bg {
+  /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
+  background: rgb(48, 49, 106);
+  background: linear-gradient(
+      0deg,
+      rgba(48, 49, 106, 0.8337710084033614) 0%,
+      rgba(48, 49, 106, 1) 100%
+    ),
+    url(assets/img//kiriko_4k_hd_overwatch_2.jpg) no-repeat center center /
+      cover !important;
+  background-size: cover;
+}
+
+.c-white {
+  color: white;
+}
+
+.jumbotron {
+  height: 100vh;
+}
+
+.socialscs {
+  background: none;
+  color: white;
+}
+
+.socialscs:hover {
+  background: none;
+  color: #f06414;
+}
+
+.res2 {
+  display: none;
+}
+
+.navlogo:hover {
+  filter: brightness(120%);
+}
+
+.card {
+  background: rgb(53, 62, 98);
+  background: radial-gradient(
+    circle,
+    rgba(53, 62, 98, 1) 0%,
+    rgba(31, 36, 58, 1) 100%
+  );
+  color: white;
+}
+
+.card-imgcs {
+  object-fit: cover;
+}
+
+.noborderrad {
+  border: 0px !important;
+}
+
+/* ====================================== PC =================================== */
+
+@media screen and (min-width: 900px) {
+  .sectioncs {
+    padding: 80px 150px;
+  }
+}
+
+/* ====================================== ANDROID =================================== */
+
+@media screen and (max-width: 1250px) {
+  .res {
+    display: none;
+  }
+
+  .res2 {
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  .sectioncs {
+    padding: 25px;
+  }
+
+  .jumbotron {
+    padding: 15px;
+  }
+
+  .navlogoblizzard {
+    display: none;
+  }
+
+  .h1-resp {
+    font-size: 27px;
+  }
+
+  .p-resp {
+    font-size: 20px !important;
+  }
+
+  .navbtn {
+    display: none;
+  }
+
+  .nav-link:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}
