@@ -254,7 +254,7 @@ a:hover {
   }
   .h1jum {
     word-wrap: break-word !important;
-    font-size: 35px !important;
+    font-size: 30px !important;
   }
   .pjum {
     font-size: 15px !important;
@@ -271,7 +271,6 @@ a:hover {
 
   .res2 {
     display: block;
-    padding-bottom: 0px;
     width: 70px;
   }
 
