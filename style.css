@@ -249,13 +249,30 @@ a:hover {
 /* ====================================== ANDROID =================================== */
 
 @media screen and (max-width: 1250px) {
+  .imgjum {
+    width: 37vh;
+  }
+  .h1jum {
+    word-wrap: break-word !important;
+    font-size: 35px !important;
+  }
+  .pjum {
+    font-size: 15px !important;
+  }
+  .btnjum {
+    font-size: 15px !important;
+  }
+  h1 {
+    font-size: 35px !important;
+  }
   .res {
     display: none;
   }
 
   .res2 {
     display: block;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
+    width: 70px;
   }
 
   .sectioncs {
@@ -272,10 +289,6 @@ a:hover {
 
   .h1-resp {
     font-size: 27px;
-  }
-
-  .p-resp {
-    font-size: 20px !important;
   }
 
   .navbtn {
