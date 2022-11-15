@@ -250,11 +250,11 @@ a:hover {
 
 @media screen and (max-width: 1250px) {
   .imgjum {
-    width: 37vh;
+    width: 45vh !important;
   }
   .h1jum {
     word-wrap: break-word !important;
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .pjum {
     font-size: 15px !important;
