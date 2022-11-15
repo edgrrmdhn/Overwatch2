@@ -164,7 +164,7 @@ a:hover {
 }
 
 .impact {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif !important;
   line-height: 70px !important  ;
   font-weight: 500 !important;
   font-style: italic;
