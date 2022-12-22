@@ -311,6 +311,10 @@ a:hover {
   display: none;
 }
 
+.res2carousel {
+  display: none;
+}
+
 .navlogo:hover {
   filter: brightness(120%);
 }
@@ -332,15 +336,15 @@ a:hover {
 .noborderrad {
   border: 0px !important;
 }
+/* .showandroid {
+  display: none;
+} */
 
 /* ====================================== PC =================================== */
 
 @media screen and (min-width: 900px) {
   .sectioncs {
     padding: 80px 150px;
-  }
-  .showandroid {
-    display: none;
   }
 }
 
@@ -351,9 +355,9 @@ a:hover {
 /* ====================================== ANDROID =================================== */
 
 @media screen and (max-width: 1250px) {
-  .showpc {
+  /* .showpc {
     display: none;
-  }
+  } */
   .imgjum {
     width: 45vh !important;
   }
@@ -379,6 +383,10 @@ a:hover {
   .res2 {
     display: block;
     width: 70px;
+  }
+
+  .res2carousel {
+    display: block;
   }
 
   .sectioncs {
