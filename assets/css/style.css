@@ -30,7 +30,7 @@ hr {
 }
 
 .whitecolor {
-  color: white;
+  color: white !important;
 }
 
 .sc4 {
@@ -186,6 +186,14 @@ a:hover {
   border-radius: 0;
 }
 
+.btnhero {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.btnhero:hover {
+  background-color: white !important;
+}
+
 .btn:hover {
   background-color: #f3945a;
 }
@@ -237,6 +245,14 @@ a:hover {
   /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
   background: linear-gradient(var(--trans), var(--black)),
     url(../img/overwatchgif.gif) no-repeat center center / cover !important;
+  background-size: cover;
+}
+
+.jumbo2-bg {
+  /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
+  background: linear-gradient(var(--trans), var(--trans)),
+    url(https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blta71591f6cdc5d595/632254b15f39a30d9cedbc7d/960_Header_V3.jpg?auto=webp)
+      no-repeat center center / cover !important;
   background-size: cover;
 }
 
@@ -295,6 +311,10 @@ a:hover {
 
 .jumbotron {
   height: 100vh;
+}
+
+.jombotroncs {
+  height: 45vh;
 }
 
 .socialscs {
