@@ -256,6 +256,13 @@ a:hover {
   background-size: cover;
 }
 
+.jumbo3-bg {
+  /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
+  background: linear-gradient(var(--trans), var(--trans)),
+    url(../img/news.jpg) no-repeat center center / cover !important;
+  background-size: cover;
+}
+
 .sec2-bg {
   /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
   background: rgb(48, 49, 106);
@@ -347,6 +354,10 @@ a:hover {
     rgba(31, 36, 58, 1) 100%
   );
   color: white;
+}
+
+.card2 {
+  background: hsl(0, 0%, 0%, 0);
 }
 
 .card-imgcs {
