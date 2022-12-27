@@ -259,6 +259,14 @@ a:hover {
   background-size: cover;
 }
 
+.jumbohero-bg {
+  /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
+  background: linear-gradient(var(--trans), var(--black)),
+    url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltcd4bcf30a5794639/631a8b65f581050de0035df6/2600_Dva.jpg)
+      no-repeat center center / cover !important;
+  background-size: cover;
+}
+
 .jumbo2-bg {
   /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
   background: linear-gradient(var(--trans), var(--trans)),
@@ -297,6 +305,18 @@ a:hover {
   background-size: cover;
 }
 
+.secotherhero-bg {
+  background: rgb(48, 49, 106);
+  background: linear-gradient(
+      0deg,
+      rgba(48, 49, 106, 0) 0%,
+      rgba(48, 49, 106, 0) 0%
+    ),
+    url(https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltb46c3e25d6b66ac7/63179b9ba5fcf17ab450b220/1600_Related_Heroes.jpg?auto=webp)
+      no-repeat center center / cover !important;
+  background-size: cover;
+}
+
 .sec5-bg {
   background: rgb(48, 49, 106);
   background: linear-gradient(
@@ -305,6 +325,17 @@ a:hover {
       rgba(48, 49, 106, 0) 0%
     ),
     url(../img/mapsbg.jpg) no-repeat center center / cover !important;
+  background-size: cover;
+}
+
+.sechero-bg {
+  background: rgb(48, 49, 106);
+  background: linear-gradient(
+      0deg,
+      rgba(48, 49, 106, 0.5) 0%,
+      rgba(48, 49, 106, 0.5) 0%
+    ),
+    url(../img/herodetail.jpg) no-repeat center center / cover !important;
   background-size: cover;
 }
 
@@ -328,6 +359,10 @@ a:hover {
 }
 
 .jumbotron {
+  height: 100vh;
+}
+
+.jumbotronhero {
   height: 100vh;
 }
 
