@@ -29,6 +29,17 @@ hr {
   );
 }
 
+.hr2 {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+}
+
 .whitecolor {
   color: white !important;
 }
@@ -371,6 +382,11 @@ a:hover {
   display: none;
 } */
 
+.newssec {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
 /* ====================================== PC =================================== */
 
 @media screen and (min-width: 900px) {
@@ -389,6 +405,10 @@ a:hover {
   /* .showpc {
     display: none;
   } */
+  .newssec {
+    padding-right: 10px;
+    padding-left: 40px;
+  }
   .imgjum {
     width: 45vh !important;
   }
