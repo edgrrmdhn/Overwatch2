@@ -70,7 +70,7 @@ hr {
   right: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  bottom: 60px !important;sc6bg
+  bottom: 60px !important;
 }
 
 .whitespc {
@@ -432,6 +432,13 @@ a:hover {
   padding-right: 300px;
 }
 
+.login {
+  /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
+  background: linear-gradient(var(--trans), var(--black)),
+    url(../img/playnow.jpg) no-repeat center center / cover !important;
+  background-size: cover;
+}
+
 /* ====================================== PC =================================== */
 
 @media screen and (min-width: 900px) {
@@ -450,6 +457,11 @@ a:hover {
   /* .showpc {
     display: none;
   } */
+
+  .playnowres {
+    padding-top: 1000px !important;
+  }
+
   .newssec {
     padding-right: 10px;
     padding-left: 40px;
