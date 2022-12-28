@@ -56,7 +56,8 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="index.html">
                                 Game Info
-                            </a>
+                            </a
+      >
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="heroes.html">Heroes</a>
@@ -84,16 +85,16 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                                     <li>
-                                        <a class="dropdown-item" href="#">Login</a>
+                                        <a class="dropdown-item" href="login.html">Login</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Register</a>
+                                        <a class="dropdown-item" href="register.html">Register</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                     </span>
-                    <button class="btn btn-danger btn-lg border-0 navbtn" type="button" style="margin-left: 20px; border-radius: 8px;">PLAY NOW</button>
+                    <button class="btn btn-danger btn-lg border-0 navbtn" type="button" style="margin-left: 20px; border-radius: 8px;"><a href="playnow.html" style="color: white; filter: brightness(100%);">PLAY NOW</a></button>
                 </form>
             </div>
         </div>
@@ -264,7 +265,7 @@
         <section>
             <div class="container-fluid sectioncs sec1 sec4-bg whitecolor">
                 <div class="row centered">
-                    <div class="text-center" style="padding-bottom: 100px;">
+                    <div class="text-center" style="padding-bottom: 18px;">
                         <h1>
                             ORIGIN STORY
                         </h1>
@@ -279,16 +280,8 @@
                             <br>
                             deep beneath the sea.
                         </p>
-                        <div style="text-aling: center; margin: auto">
-                            <iframe
-                                src="http://www.youtube.com/embed/q7j2d6YCQbg?yt:stretch=16:9&vq=hd720p&loop=0&color=red&iv_load_policy=3&rel=0&showinfo=0&autohide=0&controls=1"
-                                width="760"
-                                height="428"
-                                allowtransparency="true"
-                                frameborder="0"
-                            ></iframe>
-                        </div>
                     </div>
+                    <hr>
                     <div class="row centered col-md-6">
                         <h2 style="padding-top: 60px;">
                             GWISHIN
@@ -308,8 +301,16 @@
                         the monstrosity defeated but not destroyed.
                         </p>
                     </div>
-                    <div class="col-md-6">
-                        <img src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt61b8f52c5724688d/638809023cbefd11108111d1/dva-00.jpg?format=webply&quality=90" width="100%" alt="">
+                    <div class="col-md-6 d-flex justify-content-end cspad align-items-center" id="video">
+                        <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+                            <iframe
+                                src="http://www.youtube.com/embed/q7j2d6YCQbg?yt:stretch=16:9&vq=hd720p&loop=0&color=red&iv_load_policy=3&rel=0&showinfo=0&autohide=0&controls=1"
+                                style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"
+                                allowfullscreen
+                                scrolling="no"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                            ></iframe>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -403,7 +404,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <button class="btn btn-light btn-lg border-0 no-radius btnjum" type="button" style="margin: 5px;">SEE ALL HEROES</button>
+                            <a href="heroes.html" style="color: white; filter: brightness(100%);"><button class="btn btn-light btn-lg border-0 no-radius btnjum" type="button" style="margin: 5px;">SEE ALL HEROES</button></a>
                         </div>
                     </div>
                 </section>
@@ -418,7 +419,7 @@
                                     FIGHTING FOR. JOIN US!
                                 </h1>
                                 <br>
-                                <button class="btn btn-danger btn-lg border-0 no-radius btnjum" type="button">PLAY NOW</button>
+                                <a href="playnow.html" style="color: white; filter: brightness(100%);"><button class="btn btn-danger btn-lg border-0 no-radius btnjum" type="button">PLAY NOW</button></a>
                             </div>
                         </div>
                     </div>

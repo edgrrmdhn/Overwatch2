@@ -58,7 +58,6 @@ hr {
 .sc6bg {
   position: relative;
   top: -200px;
-  z-index: -1;
 }
 
 .sec3pad {
@@ -71,7 +70,7 @@ hr {
   right: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  bottom: 60px !important;
+  bottom: 60px !important;sc6bg
 }
 
 .whitespc {
@@ -241,6 +240,10 @@ a:hover {
   opacity: 1.6;
 }
 
+.border-warning {
+  border-color: #f06414 !important;
+}
+
 .impact {
   font-family: "Oswald", sans-serif !important;
   line-height: 70px !important  ;
@@ -256,6 +259,13 @@ a:hover {
   /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
   background: linear-gradient(var(--trans), var(--black)),
     url(../img/overwatchgif.gif) no-repeat center center / cover !important;
+  background-size: cover;
+}
+
+.jumboplaynow-bg {
+  /* background-image: url(assets/img/kiriko_4k_hd_overwatch_2.jpg); */
+  background: linear-gradient(var(--trans), var(--black)),
+    url(../img/playnow.jpg) no-repeat center center / cover !important;
   background-size: cover;
 }
 
